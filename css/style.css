@@ -1005,7 +1005,11 @@ a.agilebtn {
 /*-- team --*/
 
 .team.agileits-w3layouts {
-    background: #fff;
+    background: gray;
+}
+
+#invite {
+    height: auto
 }
 
 .team-grid {
