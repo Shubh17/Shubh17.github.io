@@ -14,9 +14,9 @@ body {
     /* font-family: 'Open Sans', sans-serif; */
 }
 #travelBody{
-    align-items: center;
+    /* align-items: center; */
      background-image: url(../images/indiaColors.jpg);
-      color:black;
+    color:black;
 }
 
 body a {
