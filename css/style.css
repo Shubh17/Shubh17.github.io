@@ -10,8 +10,11 @@
 body {
     padding: 0;
     margin: 0;
-    background: black;
+    background: aliceblue;
     /* font-family: 'Open Sans', sans-serif; */
+}
+#travelBody{
+    align-items: center
 }
 
 body a {
@@ -70,7 +73,7 @@ label {
 }
 #heading{
     text-align: center;
-    margin-top: 10%;
+    margin-top: 20%;
 
 }
 
