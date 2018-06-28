@@ -16,12 +16,11 @@ body {
 #travelBody{
     /* align-items: center; */
      background-image: url(../images/indiaColors.jpg);
-       background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-        color:black;
-        text-align: left;
-        position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color:black;
+    position: absolute;
 }
 
 body a {
