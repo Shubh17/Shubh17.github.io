@@ -21,7 +21,8 @@ body {
         background-position: center;
         color:black;
         text-align: left;
-        position: relative
+        position: relative;
+        align-content: space-around
 }
 
 body a {
