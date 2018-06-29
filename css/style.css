@@ -78,11 +78,7 @@ label {
 .text-center {
     text-align: center;
 }
-#heading{
-    text-align: center;
-    margin-top: 10%;
 
-}
 
 
 /*-- //Reset-Code --*/
@@ -99,6 +95,10 @@ p {
 
 .agileits_main {
     background: url(../images/bigpic.jpg) no-repeat center;
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -127,7 +127,7 @@ p {
 
 .banner_text_w3layouts {
     text-align: center;
-    padding: 16.5em 0;
+    padding: 25.5em 0;
 }
 
 .banner_text_w3layouts h3 {
@@ -137,7 +137,7 @@ p {
     font-weight: 700;
     text-transform: capitalize;
     letter-spacing: 2px;
-    margin-top: 5%
+    /* margin-top: 5% */
 }
 
 .banner_text_w3layouts span {
