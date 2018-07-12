@@ -254,7 +254,8 @@ ul.dropdown-menu li{
 }
 .agileits-banner-info {
     margin: 11em 0 11em 16em;
-    margin-top: 500px
+    float: left;
+    /* margin-top: 500px */
     /* changed above margin to px instead of percentage */
 }
 .agileits-banner-info h3{
