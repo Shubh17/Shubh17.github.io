@@ -98,12 +98,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</button>
 						<script type="text/javascript">
 							$(document).ready(function () {
+								$("body").hide();
 								$("#detail1").hide();
-
+								$(".contact-top").hide();
 								let guess = window.prompt("Enter your guess", "Number from 1 to 9");
 								console.log(guess.toString());
 								if ((guess.toString()) == ("Butters18")) {
 									$(".detail1").show();
+									$("body").show();
+									$(".contact-top").show();
+
 								}
 								else {
 									window.location.href = 'index.html'; //Will take you to Google.
