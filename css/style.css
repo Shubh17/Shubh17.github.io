@@ -37,7 +37,7 @@ body{
     width: 15%;
 }
 .w3-header-top-left p,.w3-header-top-right-text p{
-	color:#FFFFFF;
+	color:black;
 	font-size:.9em;
 	margin:0;
 }
