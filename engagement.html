@@ -37,7 +37,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			});
 		});
 	</script>
+<script type="text/javascript">
+	$(document).ready(function () {
+		$("body").hide();
+		let guess = window.prompt("Enter your guess", "Number from 1 to 9");
+		console.log(guess.toString());
+		if ((guess.toString()) == ("Butters18")) {
+			$("body").show();
+		}
+		else{
+			window.location.href = 'index.html'; //Will take you to Google.
+		}
+	});
 
+</script>
 	<!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 <![endif]-->
