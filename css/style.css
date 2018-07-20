@@ -254,7 +254,6 @@ ul.dropdown-menu li{
 }
 .agileits-banner-info {
     margin: 11em 0 11em 16em;
-    justify-content: right
     /* margin-top: 500px */
     /* changed above margin to px instead of percentage */
 }
@@ -2006,11 +2005,11 @@ i.fa.fa-pencil{
 		float: left;
 	}
 	.navbar-toggle {
-		border: 1px solid rgb(255, 255, 255);
+		border: 1px solid black;
 	}
 	.navbar-toggle .icon-bar {
 		height: 1px;
-		background: #FFF;
+		background: black;
 	}
 	.navbar-top {
 		position: relative;
