@@ -20,7 +20,7 @@ body{
 }
 /*-- banner --*/
 .banner{
-	background: url(../images/2.jpg) no-repeat 0px 0px;
+	background: url(../images/siditi.jpg) no-repeat 0px 0px;
     background-size: cover;
 }
 .jarallax {
@@ -135,7 +135,7 @@ div#bs-example-navbar-collapse-1 {
 .navbar-nav li:after{
 	content: "";
     position: absolute;
-    background: #FFFFFF;
+    background: black;
     height: 10px;
     width: 2px;
     top: 13px;
