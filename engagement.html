@@ -90,7 +90,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="navbar-top">
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<button type="button" class="navbar-toggle collapsed" style="color:black" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 							<span class="sr-only">Toggle navigation</span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
@@ -98,15 +98,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</button>
 						<script type="text/javascript">
 							$(document).ready(function () {
-								$("body").hide();
-								$("#detail1").hide();
-								$(".contact-top").hide();
+								$(".detail1").hide();
+
 								let guess = window.prompt("Enter your guess", "Number from 1 to 9");
 								console.log(guess.toString());
 								if ((guess.toString()) == ("Butters18")) {
 									$(".detail1").show();
-									$("body").show();
-									$(".contact-top").show();
+									// $("body").show();
+									// $(".contact-top").show();
 
 								}
 								else {
@@ -131,7 +130,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<li>
 								<a href="gallery.html" style="color: white">Gallery</a>
 							</li>
-							<li class="dropdown">
+							<!-- <li class="dropdown">
 								<a href="codes.html" class="dropdown-toggle" data-hover="Pages" data-toggle="dropdown" style="color: white">Pages
 									<b class="caret"></b>
 								</a>
@@ -143,7 +142,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										<a href="codes.html" style="color: white">Codes</a>
 									</li>
 								</ul>
-							</li>
+							</li> -->
 							<li>
 								<a href="travel.html" style="color: white">Travel</a>
 							</li>
