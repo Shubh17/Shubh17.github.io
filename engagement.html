@@ -35,22 +35,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				event.preventDefault();
 				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
 			});
+
 		});
 	</script>
-<script type="text/javascript">
-	$(document).ready(function () {
-		$("body").hide();
-		let guess = window.prompt("Enter your guess", "Number from 1 to 9");
-		console.log(guess.toString());
-		if ((guess.toString()) == ("Butters18")) {
-			$("body").show();
-		}
-		else{
-			window.location.href = 'index.html'; //Will take you to Google.
-		}
-	});
 
-</script>
 	<!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 <![endif]-->
@@ -108,44 +96,58 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						
-		
+						<script type="text/javascript">
+							$(document).ready(function () {
+								$("#detail1").hide();
+
+								let guess = window.prompt("Enter your guess", "Number from 1 to 9");
+								console.log(guess.toString());
+								if ((guess.toString()) == ("Butters18")) {
+									$(".detail1").show();
+								}
+								else {
+									window.location.href = 'index.html'; //Will take you to Google.
+								}
+							});
+
+						</script>
+
 					</div>
-		
+
 					<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-							<ul class="nav navbar-nav link-effect-4">
-								<li>
-									<a href="index.html" style="color: white">Home</a>
-								</li>
-								<li class="active">
-									<a href="engagement.html" style="color: white">Engagement</a>
-								</li>
-						
-								<li>
-									<a href="gallery.html" style="color: white">Gallery</a>
-								</li>
-								<li class="dropdown">
-									<a href="codes.html" class="dropdown-toggle" data-hover="Pages" data-toggle="dropdown" style="color: white">Pages
-										<b class="caret"></b>
-									</a>
-									<ul class="dropdown-menu">
-										<li>
-											<a href="icons.html" style="color: white">Icons</a>
-										</li>
-										<li>
-											<a href="codes.html" style="color: white">Codes</a>
-										</li>
-									</ul>
-								</li>
-								<li >
-									<a href="travel.html" style="color: white">Travel</a>
-								</li>
-								<li>
-									<a href="invite.html" style="color: white">Invite & RSVP </a>
-								</li>
-							</ul>
-						</div>
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav link-effect-4">
+							<li>
+								<a href="index.html" style="color: white">Home</a>
+							</li>
+							<li class="active">
+								<a href="engagement.html" style="color: white">Engagement</a>
+							</li>
+
+							<li>
+								<a href="gallery.html" style="color: white">Gallery</a>
+							</li>
+							<li class="dropdown">
+								<a href="codes.html" class="dropdown-toggle" data-hover="Pages" data-toggle="dropdown" style="color: white">Pages
+									<b class="caret"></b>
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="icons.html" style="color: white">Icons</a>
+									</li>
+									<li>
+										<a href="codes.html" style="color: white">Codes</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="travel.html" style="color: white">Travel</a>
+							</li>
+							<li>
+								<a href="invite.html" style="color: white">Invite & RSVP </a>
+							</li>
+						</ul>
+					</div>
 					<!-- /.navbar-collapse -->
 				</div>
 			</div>
@@ -162,32 +164,41 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="contact-grids">
 				<div class="col-md-7 contact-form">
-					<p>
-						<strong> <u>When</u></strong>: Saturday, December 29, 2018
+					<p id="detail1">
+						<strong>
+							<u>When</u>
+						</strong>: Saturday, December 29, 2018
 						<br>
 						<br>
-						<strong> <u>When</u> </strong>:
+						<strong>
+							<u>When</u>
+						</strong>:
 						<a href="https://www.google.com/maps/place/Le+Meridien+New+Delhi/@28.6187901,77.2158195,17z/data=!3m1!4b1!4m7!3m6!1s0x390ce2ca0c23a6c7:0x393bb2179c15093a!5m1!1s2018-07-13!8m2!3d28.6187901!4d77.2180082">
 							Le Meridien Connaught Place, New Delhi</a>
 						<br>
 						<br>
-						<strong> <u>Accomodations</u></strong>: Rooms under a special rate at the Le Meridien for 12/28 and 12/29. Price is 8500 INR (~$125
-						USD) + taxes per night. Maximum occupancy of three people per room. Breakfast is included. We will be providing lunch
-						on 12/29 for those that are interested in sticking around the hotel.
+						<strong>
+							<u>Accomodations</u>
+						</strong>: Rooms under a special rate at the Le Meridien for 12/28 and 12/29. Price is 8500 INR (~$125 USD) + taxes per night.
+						Maximum occupancy of three people per room. Breakfast is included. We will be providing lunch on 12/29 for those that
+						are interested in sticking around the hotel.
 
 
 						<br>
 						<br>
-							<strong> <u>Attire</u> </strong>: Indian or Western formal <br>
-							 For those interested in Indian formal (guys and girls), you can go to Manyvar (guys), Fab India (guys/girls) or find a store
-							in Khan Market. If you think you can bargain like a brown man, I dare you to go to Lajpat Nagar Market and buy it there (guaranteed
-							to be cheaper than other places). For ideas on what to wear, please see below example (note that the flowers are not necessary).
-							<br>
-							<br>
-							
+						<strong>
+							<u>Attire</u>
+						</strong>: Indian or Western formal
+						<br> For those interested in Indian formal (guys and girls), you can go to Manyvar (guys), Fab India (guys/girls) or find
+						a store in Khan Market. If you think you can bargain like a brown man, I dare you to go to Lajpat Nagar Market and
+						buy it there (guaranteed to be cheaper than other places). For ideas on what to wear, please see below example (note
+						that the flowers are not necessary).
+						<br>
+						<br>
+
 					</p>
 
-					<div>
+					<div id="detail1">
 						<img style=" display: block; margin-left: 30%;margin-right: auto; width: 100%;" src="images/Picture1.png" />
 
 					</div>
