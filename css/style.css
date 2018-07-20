@@ -20,8 +20,8 @@ body{
 }
 /*-- banner --*/
 .banner{
-	background: url(../images/siditi.jpg) no-repeat 0px 0px;
-    background-size: cover;
+	background: url(../images/siditi.jpg)  0px 0px;
+    /* background-size: cover; */
 }
 .jarallax {
     position: relative;
@@ -254,7 +254,7 @@ ul.dropdown-menu li{
 }
 .agileits-banner-info {
     margin: 11em 0 11em 16em;
-    float: left;
+    justify-content: right
     /* margin-top: 500px */
     /* changed above margin to px instead of percentage */
 }
