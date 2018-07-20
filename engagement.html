@@ -132,7 +132,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- blog -->
 
 
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$("body").hide();
+			let guess = window.prompt("Enter your password");
+			console.log(guess.toString());
+			if ((guess.toString()) == ("desiparty")) {
+				$("body").show();
+			}
+			else {
+				window.location.href = 'index.html'; //Will take you to Google.
+			}
+		});
 
+	</script>
 
 
 	<div class="blog">
