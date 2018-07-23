@@ -137,8 +137,8 @@ body {
 div#bs-example-navbar-collapse-1 {
 float: left;
 /* background-color: purple; */
-width: 120%;
-margin-bottom:2%;
+width: 100%;
+margin-bottom:1%
 }
 .navbar-nav li:after {
   content: "";
