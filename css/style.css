@@ -135,10 +135,11 @@ body {
   margin-bottom: 0;
 }
 div#bs-example-navbar-collapse-1 {
-float: left;
-/* background-color: purple; */
-width: 90%;
-margin-bottom:1%
+float: right;
+background-color: purple;
+width: 80%;
+margin-bottom:10%;
+/* flex-direction: row */
 }
 .navbar-nav li:after {
   content: "";
