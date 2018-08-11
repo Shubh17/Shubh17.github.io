@@ -1169,9 +1169,10 @@ i#jzBoxClose {
   padding: 0;
 }
 .wpf-demo-4 {
-  padding: 0;
+  padding: 1%;
   position: relative;
   overflow: hidden;
+  /* border-width: 30px */
 }
 img.img-responsive {
   width: 100%;
