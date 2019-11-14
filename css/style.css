@@ -27,6 +27,23 @@ body {
 
   background-size: cover;
 }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding:1%;
+}
+
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  padding: 1%;
+}
+
+.column img {
+  margin-top: 1%;
+  vertical-align: middle;
+}
 .hammer {
   /* background: url(../images/IMG_5816.jpg) no-repeat 0px 0px; */
   /*optimal.jpg */
