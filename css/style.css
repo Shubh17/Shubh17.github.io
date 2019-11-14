@@ -576,6 +576,9 @@ ul.dropdown-menu li {
 .why-choose-agile {
   background: #f0f0f0;
 }
+.why-not-choose-agile {
+  background:"white";
+}
 .agileits_w3layouts_features_gridr img {
   margin: 0 auto;
 }
