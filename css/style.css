@@ -14,7 +14,10 @@ body a {
 html,
 body {
   font-size: 100%;
-  font-family: "Apple Chancery";
+  font-family: "Bradley Hand";;
+}
+.aditiFontChoices:{
+  font-family: "Bradley Hand"
 }
 body {
   background: #ffffff;
