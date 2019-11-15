@@ -39,6 +39,11 @@ body a {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
 
 /* Style the image inside the centered container, if needed */
 .centered img {
