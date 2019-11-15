@@ -65,8 +65,8 @@ body a {
             text-align: center;
             width: 100%;
             height: 100%;
-            margin-left:10%;
-            padding-top:5%
+            padding-left: 10%;
+            padding-top:5%;
         }
 
         .image2 {
@@ -74,7 +74,9 @@ body a {
             text-align: center;
             width: 100%;
             height: 100%;
-                        padding-top:5%
+            padding-top:5%;
+                        padding-left:5%
+
 
         }
 
@@ -83,7 +85,9 @@ body a {
             text-align: center;
               width: 100%;
             height: 100%;
-                        padding-top:5%
+                        padding-top:5%;
+                                    padding-left:5%
+
 
         }
 
@@ -92,7 +96,9 @@ body a {
             text-align: center;
               width: 100%;
             height: 100%;
-            padding-top:5%
+            padding-top:5%;
+                        padding-left:5%
+
 
         }
 
@@ -101,14 +107,17 @@ body a {
             text-align: center;
             width: 100%;
             height: 100%;
-            margin-left: 10%;
-        }
+            padding-left: 10%;
+
+          }
 
         .image6 {
             grid-area: img6;
             text-align: center;
              width: 100%;
             height: 100%;
+                        padding-left:5%
+
         }
 
         .image7 {
@@ -116,6 +125,8 @@ body a {
             text-align: center;
              width: 100%;
             height: 100%;
+                        padding-left:5%
+
         }
 
         .image8 {
@@ -123,35 +134,44 @@ body a {
             text-align: center;
              width: 100%;
             height: 100%;
+                        padding-left:5%
+
         }
 
         .image9 {
             grid-area: img9;
             text-align: center;
-             width: 70%;
-            height: 80%;
-            margin-left: 10%;
+             width: 95%;
+            height: 90%;
+            padding-left: 10%;
+            
         }
 
         .image10 {
             grid-area: img10;
             text-align: center;
-             width: 70%;
-            height: 80%;
+             width: 95%;
+            height: 90%;
+                        padding-left:5%
+
         }
 
         .image11 {
             grid-area: img11;
             text-align: center;
-             width: 70%;
-            height: 80%;
+             width:95%;
+            height: 90%;
+                        padding-left:5%
+
         }
 
         .image12 {
             grid-area: img12;
             text-align: center;
-             width: 70%;
-            height: 80%;
+             width: 95%;
+            height: 90%;
+                        padding-left:5%
+
         }
 
         .fit {
