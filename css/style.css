@@ -14,6 +14,37 @@ body a {
 * {
   box-sizing: border-box;
 }
+.split {
+  height: 80%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
 .portfoliot {
   background-color: black;
             display: grid;
@@ -277,7 +308,6 @@ body {
   /* background: url(../images/IMG_5816.jpg) no-repeat 0px 0px; */
   /*optimal.jpg */
     background: url(../images/experiment.jpg) no-repeat 0px 0px;
-
   background-size: cover;
 }
 .jarallax {
@@ -1879,7 +1909,7 @@ h2.typoh2 {
 /*-- blog --*/
 .blog {
   padding: 4em 0;
-  background: #f9f9fb;
+  /* background-image: url('/images/background.png'); */
 }
 .agile-blog-grid-left-img a img {
   width: 100%;
