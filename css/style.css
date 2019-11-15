@@ -46,11 +46,11 @@ body a {
   border-radius: 50%;
 }
 .portfoliot {
-  background-color: black;
+  background-color: white;
             display: grid;
             grid-template-rows: 30% 30% 30%;
             grid-template-columns: repeat(4, 1fr);
-            grid-gap: 1%;
+            grid-gap: 3%;
 
             grid-template-areas: "img1 img2 img3 img4" "img5 img6 img7 img8" "img9 img10 img11 img12";
         }
