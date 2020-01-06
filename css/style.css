@@ -20,6 +20,16 @@ body a {
   position: absolute;
   top: 0;
 }
+.leftside, .rightside{
+  height: 100vh;
+  width : 100%;
+}
+.leftside{
+  background-color: red;
+}
+.rightside{
+  background-color: blue;
+}
 
 /* Control the left side */
 .left {
@@ -828,6 +838,7 @@ ul.dropdown-menu li {
 /*-- welcome --*/
 .welcome,
 .why-choose-agile,
+.why-choose-agile-travel,
 .agileinfo-dot,
 .news,
 .w3l-about-top,
@@ -910,6 +921,11 @@ ul.dropdown-menu li {
 /*-- choose-us --*/
 .why-choose-agile {
   background: #f0f0f0;
+}
+.why-choose-agile-travel {
+  background: white;
+   column-count: 2;
+
 }
 .why-not-choose-agile {
   background:"white";
@@ -2570,6 +2586,7 @@ i.fa.fa-pencil {
   }
   .welcome,
   .why-choose-agile,
+    .why-choose-agile-travel,
   .agileinfo-dot,
   .news,
   .w3l-about-top,
@@ -2585,6 +2602,7 @@ i.fa.fa-pencil {
   }
   .w3l-welcome-grids,
   .why-choose-agile-grids-top,
+  .why-choose-agile-travel,
   .popular-agileinfo,
   .w3-agileits-news-grids,
   .codes,
