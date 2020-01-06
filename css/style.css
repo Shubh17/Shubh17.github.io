@@ -25,10 +25,11 @@ body a {
   width : 100%;
 }
 .leftside{
-  background-color: red;
+    /* background: url(../images/optimal.jpg) no-repeat 0px 0px; */
+    font-size: 4.5vh;
 }
 .rightside{
-  background-color: blue;
+  background-color: white;
 }
 
 /* Control the left side */
